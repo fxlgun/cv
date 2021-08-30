@@ -1,0 +1,111 @@
+@font-face
+{
+  font-family:"epilogue";
+  src: url("fonts/Epilogue-Bold.ttf");
+}
+/* TAG OPERATORS */
+body { background-color:#E7E0C9;
+    
+     }
+hr { border-style:dotted none none;
+     background-color:#E7E0C9; 
+     border-color: rgb(155, 151, 151);
+     border-width: 10px;
+     width: 5%;
+   }
+h1 { font-size: 60px;
+     color: #66bfbf;
+     font-family: Epilogue;
+   }
+h2 { 
+     font-size: 40px;
+     text-align: center;
+     color: #6B7AA1;
+     font-family: Epilogue;
+   }
+
+ td { font-size: 20px;
+      font-family: Epilogue;
+      margin-left: 30%;
+      text-align: center; 
+    } 
+    
+th { 
+    font-size: 20px;
+    font-family: Epilogue;
+    margin-left: 30%;
+    background-color: #B5EAEA;
+    
+   } 
+   
+/* CLASS OPERATORS */
+
+a:visited
+{
+  text-decoration: none;
+  color: #6B7AA1;
+}
+.btn-last
+{
+font-size: 35px;
+}
+.form-css{
+  font-family: Epilogue;
+  font-size: 20px;
+  text-align: center;
+}
+.hobbies
+{
+  font-size: 20px;
+  font-family: Epilogue;
+  padding-bottom: "10";
+  margin-left: 47%;
+}
+.list{
+  background-color:#C1CFC0;
+  font-family: Epilogue;
+  padding: 50px;
+}
+.list-space
+{
+  font-size: 20px;
+  font-family: Epilogue;
+  padding-bottom: "10";
+  margin-left: 45%;
+}
+
+.list-elements
+{
+  padding-bottom: 50px;
+
+}
+
+.table-mid
+{
+  margin-left: 25%;
+  background-color:#EDF6E5 ;  
+}
+.table-last
+{ 
+  width: "50%";
+  margin-left: 28%;
+  background-color:#B5EAEA ;
+  color: #11324D;
+  text-align: left;
+}
+.skill-start
+{
+  text-align: left;
+  width:"50%"
+}
+/* ID OPERATORS */
+#head-table
+  {
+    background-color:#11324D;
+  }
+#head-text 
+  { font-size: 20px;
+    font-family:epilogue;
+    color:#C1CFC0;
+    text-align: left;
+  }
